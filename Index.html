@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous">
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="Pizza.css">
+    <script src="Pizza.js"></script>
+    <script src="../../AppData/Local/Temp/bootstrap.js"></script>
+
+    <meta charset="UTF-8">
+    <title>Pizza Order Form</title>
+</head>
+
+<header> Hunter's Pizza Place!</header>
+
+<body>
+
+<div id="toppingsPage">
+
+    <div id="box1">
+        <form id="pizzaSizeForm">
+            <label> Select a Size: </label> <br>
+            <input type="radio" id="smallSize" name="radioSize" value="7.00">
+            <label for="smallSize">Small</label><br>
+
+            <input type="radio" id="mediumSize" name="radioSize" value="9.00">
+            <label for="mediumSize">Medium</label><br>
+
+            <input type="radio" id="largeSize" name="radioSize" value="12.00">
+            <label for="largeSize">Large</label><br>
+
+            <input type="radio" id="extraLargeSize" name="radioSize" value="16.00">
+            <label for="extraLargeSize">Extra Large</label>
+        </form>
+    </div>
+
+    <div id="box2">
+        <form id="pizzaCrustForm">
+            <label> Select a Crust: </label> <br>
+            <input type="radio" id="thinCrust" name="radioCrust" value="0.00">
+            <label for="thinCrust">Thin</label><br>
+
+            <input type="radio" id="panCrust" name="radioCrust" value="1.00">
+            <label for="panCrust">Pan</label><br>
+
+            <input type="radio" id="glutenFreeCrust" name="radioCrust" value="3.00">
+            <label for="glutenFreeCrust">Gluten Free</label><br>
+
+            <input type="radio" id="pretzelCrust" name="radioCrust" value="4.00">
+            <label for="pretzelCrust">Pretzel</label>
+        </form>
+    </div>
+
+    <div id="box3">
+        <form id="pizzaMeatForm">
+            <label> Select Meat(s): </label> <br>
+            <input type="checkbox" id="sausageMeat" name="checkboxMeat" value="1.50">
+            <label for="sausageMeat">Sausage</label><br>
+
+            <input type="checkbox" id="pepperoniMeat" name="checkboxMeat" value="1.50">
+            <label for="pepperoniMeat">Pepperoni</label><br>
+
+            <input type="checkbox" id="baconMeat" name="checkboxMeat" value="1.50">
+            <label for="baconMeat">Bacon</label><br>
+
+            <input type="checkbox" id="meatballMeat" name="checkboxMeat" value="1.50">
+            <label for="meatballMeat">Meatball</label>
+        </form>
+    </div>
+
+    <div id="box4">
+        <form id="pizzaVeggieForm">
+            <label> Select Veggie(s): </label> <br>
+            <input type="checkbox" id="pepperVeggie" name="checkboxVeggie" value="1.00">
+            <label for="pepperVeggie">Peppers</label><br>
+
+            <input type="checkbox" id="mushroomVeggie" name="checkboxVeggie" value="1.00">
+            <label for="mushroomVeggie">Mushrooms</label><br>
+
+            <input type="checkbox" id="onionVeggie" name="checkboxVeggie" value="1.00">
+            <label for="onionVeggie">Onions</label><br>
+
+            <input type="checkbox" id="blackOliveVeggie" name="checkboxVeggie" value="1.00">
+            <label for="blackOliveVeggie">Black Olives</label><br>
+        </form>
+    </div>
+</div>
+
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+<div id="formPage">
+<div id="box5">
+    <form id="deliveryForm">
+        <label for="nameForm">Name: </label>
+        <input type="text" id="nameForm" name="deliveryText">
+        <br> <br>
+
+        <label for="addressForm">Address: </label>
+        <input type="text" id="addressForm" name="deliveryText">
+        <br><br>
+
+        <label for="phoneForm">Phone: </label>
+        <input type="text" id="phoneForm" name="deliveryText">
+        <br><br>
+
+        <label for="commentsForm">Delivery Comments: </label>
+        <input type="text" id="commentsForm" name="deliveryText">
+        <br><br>
+    </form>
+</div>
+</div>
+
+<div id="totalPage">
+    <p>
+    Subtotal: <span id="subTotalTxt"></span> <br>
+    Tax: 5.1% <br>
+    Delivery Fee: 2.00$ <br>
+    Your Total Cost is: <span id="grandTotalTxt"></span> <br> <br>
+
+    Name on Order: <span id="nameFormTxt"></span> <br>
+    Phone: <span id="phoneFormTxt"> </span> <br>
+
+    </p>
+</div>
+
+<div id="btnBox">
+<button id="nextStep1"> Topping Selection</button>
+
+<button id="nextStep2"> Order Details</button>
+
+<button id="nextStep3"> Order Summary</button>
+</div>
+
+
+<div id="orderConfirmation">
+
+
+</div>
+
+
+</body>
+</html>

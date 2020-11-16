@@ -1,0 +1,175 @@
+
+body {
+    background-image: url("pizza-background.png");
+}
+
+header {
+    background-color: goldenrod;
+
+    text-align: center;
+    font-size: xx-large;
+
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 1em;
+
+    padding-top:0.4em;
+    padding-bottom:0.4em;
+
+    border-radius: 10px;
+
+    font-family: Roma;
+
+}
+
+#btnBox {
+    margin-left: 43em;
+}
+
+#box1 {
+
+    display:inline-block;
+    margin: 1em;
+    float:left;
+}
+
+#box2 {
+
+    display:inline-block;
+    margin: 1em;
+    float:left;
+}
+
+#box3 {
+
+    display:inline-block;
+    margin: 1em;
+    float:left;
+}
+
+#box4 {
+
+    display:inline-block;
+    margin: 1em;
+    float:left;
+}
+
+#box5 {
+
+
+}
+
+#totalPage{
+    display: none;
+
+    text-align: center;
+
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    margin-left: 20em;
+    margin-right: 20em;
+
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+
+    background-color: goldenrod;
+}
+
+#formPage {
+    display:none;
+}
+
+#toppingsPage {
+
+}
+
+#pizzaSizeForm {
+    background-color: goldenrod;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+    margin-top: 1em;
+    margin-left: 35em;
+    margin-right: 1em;
+
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+
+    font-family: Roma;
+}
+
+#pizzaCrustForm {
+    background-color: goldenrod;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 1em;
+
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+
+    font-family: Roma;
+}
+
+#pizzaMeatForm {
+    background-color: goldenrod;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 1em;
+
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+
+    font-family: Roma;
+}
+
+#pizzaVeggieForm {
+    background-color: goldenrod;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 1em;
+
+    border-radius: 25px;
+    box-shadow: 10px 10px;
+
+    font-family: Roma;
+}
+
+#deliveryForm {
+    background-color: goldenrod;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 5em;
+
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+
+    text-align: center;
+
+    font-family: Roma;
+}
+
+#nextStep1{
+    margin-top:1em;
+    margin-left: 5em;
+
+}
